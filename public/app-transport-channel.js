@@ -1,12 +1,12 @@
 window.MermaidAppTransportChannel = ({ port = 6969, debug = false } = { port: 6969, debug: false }) => {
-  const [,, repo, app] = window.location.href.match(/[^\/]+/gi)
+  const [,, repository, app] = window.location.href.match(/[^\/]+/gi)
 
   let connectCallback = () => {}
     , readDataCallbacks = []
     , bluetoothProviderCallbacks = []
 
   const socket = io(
-    `http://localhost:${port}?platform=app-transport-channel&repo=${repo}&app=${app}`,
+    `http://localhost:${port}?platform=app-transport-channel&repository=${repository}&app=${app}`,
     {
       options: {
         reconnectionDelayMax: 10000
