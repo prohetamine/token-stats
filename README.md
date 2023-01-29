@@ -1,6 +1,6 @@
 # token-stats
 
-![logo](media/lfsdf.png)
+![logo](https://github.com/prohetamine/readme-styled/blob/main/media/logo.png)
 
 ##### README is available in the following languages: [Russian](https://github.com/prohetamine/readme-styled/blob/main/README/russian.md) | [English](https://github.com/prohetamine/readme-styled/blob/main/README.md)
 
