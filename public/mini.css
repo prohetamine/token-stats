@@ -1,10 +1,7 @@
-* {
-  overflow: hidden;
-}
-
-body {
+body, html {
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 
 canvas[width="158"] {
