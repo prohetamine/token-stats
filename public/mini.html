@@ -123,10 +123,11 @@
     })
   })
 
-  document.querySelector('canvas').addEventListener('contextmenu', e => {
-    e.preventDefault()
-    window.close()
-  }, false)
+  window.addEventListener('keydown', event => {
+    if (event.code === 'Space') {
+      window.close()
+    }
+  })
 
   draw(stat)
   </script>
