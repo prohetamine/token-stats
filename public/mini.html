@@ -123,9 +123,10 @@
     })
   })
 
-  document.querySelector('canvas').addEventListener('dblclick', () => {
+  document.querySelector('canvas').addEventListener('contextmenu', e => {
+    e.preventDefault()
     window.close()
-  })
+  }, false)
 
   draw(stat)
   </script>
